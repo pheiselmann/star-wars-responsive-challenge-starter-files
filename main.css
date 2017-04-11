@@ -13,7 +13,7 @@ main .row {
 }
 
 img {
-  height: 400px;
   width: 100%;
+  height: auto;
 }
 
