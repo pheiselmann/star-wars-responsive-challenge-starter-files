@@ -14,28 +14,23 @@
  *   so 960 + 20 + 20 => 1000px
  *
  **/
-header {
-  position: absolute;
-  width: 100%;
-  top: 0px;
-  background-color: yellow;
-
-  /*height: 80px;*/
-  /*background-color: yellow;*/
-}
 
 header .box {
- 
+ position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: yellow;
   height: 100px;
+  padding-top: 10px;
   text-align: left;
-  padding-top: 0px;
-  margin-top: 10px;
-  margin-left: 20px;
+  padding: 
 
 }
 
-h1, .role {
+h1, .role, .name {
   font-weight: bold;
+  padding: 10px;
 }
 
 h3 {
@@ -60,8 +55,9 @@ h3 {
   clear: both;
 }
 
-.col-4 {
+.col-4, .col-12 {
   float: left;
+
 
   /* Gutters:
    * Each column is padded by half-a-gutter on each side,
@@ -74,12 +70,13 @@ h3 {
 }
 
 /* Mobile defaults */
-.col-4 {
+.col-4, .col-12 {
   width: 100%;
 }
 
 .role, .part, header {
     font-family: 'Roboto', sans-serif;
+  padding: 10px;
 }
 
 .box .role, .box .part {
@@ -94,6 +91,10 @@ h3 {
   /* 4 columns */
   .col-4 {
     width: 33.33%;
+  }
+  
+  .col-12 {
+    width: 100%;
   }
 
 }
