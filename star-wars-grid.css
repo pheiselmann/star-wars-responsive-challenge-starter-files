@@ -78,7 +78,7 @@ h3 {
     font-family: 'Roboto', sans-serif;
 }
 
-.role, .part {
+.box .role, .box .part {
   text-align: left;
 }
 
