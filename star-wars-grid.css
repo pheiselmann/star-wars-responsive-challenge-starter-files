@@ -18,17 +18,19 @@ header {
   position: absolute;
   width: 100%;
   top: 0px;
+  background-color: yellow;
 
   /*height: 80px;*/
   /*background-color: yellow;*/
 }
 
 header .box {
-  background-color: yellow;
+ 
   height: 100px;
   text-align: left;
   padding-top: 0px;
   margin-top: 10px;
+  margin-left: 20px;
 
 }
 
