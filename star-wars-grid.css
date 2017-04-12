@@ -16,6 +16,8 @@
  **/
 header {
   width: 100%;
+  top: 0px;
+
   /*height: 80px;*/
   /*background-color: yellow;*/
 }
@@ -23,6 +25,9 @@ header {
 header .box {
   background-color: yellow;
   height: 100px;
+  text-align: left;
+  padding-top: 10px;
+
 }
 
 h1, .role {
